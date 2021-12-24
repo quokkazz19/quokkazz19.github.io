@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <title>Eksplorasi Data Penerbangan</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar navbar-dark text-white box-shadow" style="background-color: rgb(3, 175, 175)">
+        <div class="container d-flex justify-content-between">
+            <img src="./gambar/STISlogo.png" width="7%">
+            <h3>Tugas Eksplorasi Data Penerbangan</h3>
+            <img src="./gambar/icon-airplane.png" width="7%">
+
+        </div>
+    </div>
+
+    <main role="main">
+        <section class="jumbotron text-center" style="background-color: rgb(255, 255, 255)">
+            <div class="container">
+                <img src="./gambar/bandara-log.png" width="40%">
+                <hr>
+                <h1 class="jumbotron-heading">Bandara Ahmad Yani Kota Semarang</h1>
+                <h6><strong>IATA</strong>: SRG, <strong>ICAO</strong>: WAHS </h6>
+                <p class="lead text-muted">Berikut merupakan Website dashboard yang menampilkan eksplorasi data
+                    penerbangan Bandara Internasional Ahmad Yani guna memenuhi tugas akhir mata kuliah Statistik
+                    Distribusi dan Jasa</p>
+
+
+                <p>Dosen Pengampu : Dr. Ir. Sasmito Hadi Wibowo, M.Sc.</p>
+                <hr>
+
+            </div>
+        </section>
+
+        <section class="jumbotron text-center bg-light" style="background-color: rgb(224, 222, 222);">
+            <div class="container">
+                <p>Bandara Internasional Ahmad Yani yang terletak di Kota Semarang merupakan salah satu bandara
+                    internasional di
+                    Indonesia sehingga terdapat dua tipe penerbangan yaitu penerbangan domestik dan penerbangan
+                    internasional.</p>
+                <h6>Pilih salah satu pilihan dibawah ini untuk melihat eksplorasi pada masing-masing tipe penerbangan
+                </h6>
+
+
+                <div class="album py-5">
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top"
+                                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                        src="./gambar/domestik.jpg" data-holder-rendered="true">
+                                    <div class="card-body">
+                                        <p>
+                                            <a href="./visualisasi/domestik.html" class="btn btn-primary my-2">
+                                                <strong>Domestik</strong>
+                                            </a>
+                                        </p>
+                                        <p class="card-text">Penerbangan domestik merupakan penerbangan komersial dimana
+                                            keberangkatan dan kedatangan berlangsung di negara yang sama.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top"
+                                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                        src="./gambar/singapur.jpg" data-holder-rendered="true">
+                                    <div class="card-body">
+                                        <p>
+                                            <a href="./visualisasi/internasional.html" class="btn btn-primary my-2">
+                                                <strong>Internasional</strong>
+                                            </a>
+                                        </p>
+                                        <p class="card-text">Penerbangan domestik merupakan penerbangan komersial dimana
+                                            keberangkatan dan kedatangan berlangsung di negara yang berbeda.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top"
+                                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                        src="./gambar/flight.jpg" data-holder-rendered="true">
+                                    <div class="card-body">
+                                        <p>
+                                            <a href="./visualisasi/overall.html" class="btn btn-primary my-2">
+                                                <strong>Keseluruhan</strong>
+                                            </a>
+                                        </p>
+                                        <p class="card-text"> Akan menampilkan rekapitulasi data penerbangan domestik
+                                            maupun internasional di Bandara Internasional Ahmad Yani.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="card-footer text-center" style="background-color: rgb(3, 175, 175); color: white">
+        Copyright &copy; <strong>CHORY AYU ZULFAIDA</strong>
+        <br />
+        Kelas : 4SI1
+        NIM : 221810256
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
